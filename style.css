@@ -2,13 +2,14 @@
     font: Roboto;
     margin: 0;
     padding: 0;
+}
 body{
     display: flex;
     flex-direction: column;
 }
 .logo{
     font-size: 24px;
-    color #F8FAF8;
+    color #F9FAF8;
 }
 .header{
     background-color: #1F2937;
@@ -16,7 +17,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 1% 15%;
 }
 .nav-bar{
     display: flex;
@@ -33,11 +34,12 @@ a{
 }
 .awesome{
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 15%;
     justify-content: space-between;
     margin: 200px 0px; 
     background-color: #1F2937;
     flex: 1;
+    height: 22%;
 }
 .awesome-text>h1{
     font-size: 48px;
@@ -50,6 +52,7 @@ a{
 }
 .col{
     background-color: #1F2937;
+    height: 6%;
 }
 .awesome-text>button{
     background-color: #3882F6;
@@ -61,3 +64,62 @@ a{
     cursor: pointer;
     margin-top: 20px;
 }
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0px;
+    height: 22%;
+    
+}
+.info{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-bottom: 75px;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    width: 300px;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.img>img{
+    border-radius: 8px;
+    width: 150px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 31%;
+    background-color: #E5E7EB;
+    
+    
+}
+.text-1{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding-top : 75px;
+    font-style: italic;
+ 
+    
+}
+.text-2{
+    display: flex;
+    font-size: 18px;
+    color: #1F2937;
+    /* margin-top: 20px; */
+    justify-content: flex-end;
+    padding-bottom : 75px;
+    font-weight: 900;
+} 
